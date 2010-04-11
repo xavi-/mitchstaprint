@@ -1,3 +1,5 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
     <style>
@@ -5,11 +7,187 @@
             background-image: url("background.png");
             background-color: #B2CAF6;
             background-repeat: repeat-x;
-            padding-top: 5px;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        h2, ul { width: 160px; }
+        
+        h2 {
+            margin: 5px 0px 0px 0px;
+            padding-left: 8px;
+            font-weight: bold;
+            font-size: 16px;
+            text-indent: -15px;
+            overflow: hidden;
+        }
+        
+        #body {
+            position: relative;
+            margin: 10px auto;
+            width: 721px;
+        }
+        
+        #subheader,
+        .product-section {
+            position: absolute;
+            font-family: Arial,Helvetica,Sans-Serif;
+        }
+        
+        a, .product-section {
+            color: #00148F;
+            width: 330px;
+            height: 138px;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        #subheader {
+            top: 242px;
+            left: 30px;
+            color: white;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        
+        #free-products             { top: 263px; left: 18px; }
+        #business-identity         { top: 413px; left: 18px; }
+        #marketing-materials       { top: 563px; left: 18px; }
+        #cards-notes-stationery    { top: 718px; left: 18px; }
+        #business-cards            { top: 263px; left: 370px; }
+        #holiday-cards-calendars   { top: 413px; left: 370px; }
+        #promotional-giveaways     { top: 563px; left: 370px; }
+        #invitations-announcements { top: 718px; left: 370px; }
+        
+        ul {
+            list-style-type: none;
+            font-size: 13px;
+            padding: 0px;
+            margin: 0px 0px 0px 5px;
+        }
+        
+        ul a { font-size: 12px; }
+        
+        .image-subinfo {
+            position: absolute;
+            text-align: center;
+            font-size: 11px;
+            bottom: 0px;
+            right: 0px;
+            width: 155px;
         }
     </style>
+    <title>MitchstaPrint - Best Mitching, Best Price.</title>
 </head>
 <body>
-<center><img src="body.png" /></center>
+<div id="body">
+    <img src="body-notext.png" />
+    <span id="subheader">Browser Our Products</span>
+    <div id="free-products" class="product-section">
+        <h2>&#x25BA;Free Products</h2>
+        <ul>
+            <li>&#x25AA; <a href="#">Free Business Cards</a></li>
+            <li>&#x25AA; <a href="#">Free Websites</a></li>
+            <li>&#x25AA; <a href="#">Free Rubber Stamps</a></li>
+            <li>&#x25AA; <a href="#">Free Pens</a></li>
+        </ul>
+        <div class="image-subinfo">
+            Free Business Cards
+            <br/>250 FREE
+        </div>
+    </div>
+    <div id="business-identity" class="product-section">
+        <h2>&#x25BA;Business Identity</h2>
+        <ul>
+            <li>&#x25AA; <a href="#">Premium Business Cards</a></li>
+            <li>&#x25AA; <a href="#">Websites</a></li>
+            <li>&#x25AA; <a href="#">Free Logo Design</a></li>
+        </ul>
+        <div class="image-subinfo">
+            Websites
+            <br/>1-Month FREE Trial
+        </div>
+    </div>
+    <div id="marketing-materials" class="product-section">
+        <h2>&#x25BA;Marketing Materials</h2>
+        <ul>
+            <li>&#x25AA; <a href="#">Postcards</a></li>
+            <li>&#x25AA; <a href="#">Brochures</a></li>
+            <li>&#x25AA; <a href="#">Folders</a></li>
+            <li>&#x25AA; <a href="#">Window Decals</a></li>
+        </ul>
+        <div class="image-subinfo">
+            Postcards
+            <br/>100 only $24.99
+        </div>
+    </div>
+    <div id="cards-notes-stationery" class="product-section">
+        <h2>&#x25BA;Cards, Notes &amp; Stationery</h2>
+        <ul>
+            <li>&#x25AA; <a href="#">Note Pads</a></li>
+            <li>&#x25AA; <a href="#">Sticky Notes</a></li>
+            <li>&#x25AA; <a href="#">Postcards</a></li>
+            <li>&#x25AA; <a href="#">Holiday Cards</a></li>
+        </ul>
+        <div class="image-subinfo">
+            Note Cards
+            <br/>10 only $7.99
+        </div>
+    </div>
+    <div id="business-cards" class="product-section">
+        <h2>&#x25BA;Business Cards</h2>
+        <ul>
+            <li>&#x25AA; <a href="#">Free Business Cards</a></li>
+            <li>&#x25AA; <a href="#">Premium Business Cards</a></li>
+            <li>&#x25AA; <a href="#">Free Logo Design</a></li>
+        </ul>
+        <div class="image-subinfo">
+            Premium Business Cards
+            <br/>250 only $19.99
+        </div>
+    </div>
+    <div id="holiday-cards-calendars" class="product-section">
+        <h2>&#x25BA;Holiday Cards &amp; Calendars</h2>
+        <ul>
+            <li>&#x25AA; <a href="#">Holiday Cards</a></li>
+            <li>&#x25AA; <a href="#">Holiday Photo Cards</a></li>
+            <li>&#x25AA; <a href="#">Calendars</a></li>
+            <li>&#x25AA; <a href="#">Caricature Products</a></li>
+        </ul>
+        <div class="image-subinfo">
+            Holiday Cards
+            <br/>10 only $3.99
+        </div>
+    </div>
+    <div id="promotional-giveaways" class="product-section">
+        <h2>&#x25BA;Promotional Giveaways</h2>
+        <ul>
+            <li>&#x25AA; <a href="#">Magnets</a></li>
+            <li>&#x25AA; <a href="#">Sticky Notes</a></li>
+            <li>&#x25AA; <a href="#">Calendars</a></li>
+            <li>&#x25AA; <a href="#">Pens</a></li>
+        </ul>
+        <div class="image-subinfo">
+            T-Shirts
+            <br/>1 only $9.49
+        </div>
+    </div>
+    <div id="invitations-announcements" class="product-section">
+        <h2>&#x25BA;Invitations &amp; Announcements</h2>
+        <ul>
+            <li>&#x25AA; <a href="#">Invitations</a></li>
+            <li>&#x25AA; <a href="#">Announcements</a></li>
+            <li>&#x25AA; <a href="#">Photo Products</a></li>
+            <li>&#x25AA; <a href="#">Envelopes</a></li>
+        </ul>
+        <div class="image-subinfo">
+            Invitations
+            <br/>10 only $7.99
+        </div>
+    </div>
+</div>
 </body>
 </html>
